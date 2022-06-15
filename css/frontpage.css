@@ -1,0 +1,520 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+    background-color: #fafaee;
+}
+
+.lottie-bg {
+    background: none;
+    position: absolute;
+    z-index: -1;
+    width:100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* header-primario */
+
+
+.logo {
+    margin: 0;
+    margin-top: 0rem;
+    margin-left: 10rem;
+    width: 26%;
+}
+
+.header-primario {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-nav-toggle {
+    display: none;
+}
+
+.nav-primaria {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 10rem;
+}
+
+.nav-primaria a {
+    text-decoration: none;
+    color: #282012;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.bubble {
+    position: absolute;
+    margin: 0;
+    z-index: 1;
+    top: 9rem;
+    left: 4rem;
+    width: 50%;
+}
+
+.delivery {
+    position: absolute;
+    margin: 0;
+    z-index: 2;
+    top: 14rem;
+    left: 3rem;
+    width: 50%;
+}
+
+.business {
+    position: absolute;
+    margin: 0;
+    padding-top: 8rem;
+    z-index: 2;
+    top: 56rem;
+    right: 5rem;
+    width: 39%;
+}
+
+.planos {
+    position: absolute;
+    margin: 0;
+    padding-top: 8rem;
+    z-index: 2;
+    top: 112rem;
+    left: 2rem;
+    width: 43%;
+}
+
+.implante-o {
+    position: absolute;
+    z-index: 3;
+    
+    font-size: 4rem;
+    font-weight: 700;
+
+    margin: 0;
+    left: 60rem;
+    top: 21rem;
+}
+
+.initial-animations {
+    display: flex;
+    flex-direction: column;
+}
+
+.fritz-noseunegocio {
+    display: flex;
+    flex-direction: row;
+    font-size: 4rem;
+    font-weight: 700;
+    position: absolute;
+    z-index: 3;
+    
+    font-size: 4rem;
+    font-weight: 700;
+
+    margin: 0;
+    left: 70rem;
+    top: 26rem;
+}
+
+.fritz {
+    color: #E2DF21;
+    position: absolute;
+    z-index: 3;
+    
+    font-size: 4rem;
+    font-weight: 700;
+
+    margin: 0;
+    right: 31rem;
+}
+
+.button-plans {
+    z-index: 4;
+    width: 60%;
+    position: absolute;
+    top: 6rem;
+    right: 22rem;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+footer {
+    background: #212529;
+    color: #fcfce5;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -147rem;
+    font-weight: 700;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+.socials-icons {
+    padding-left: 1rem;
+    color: #E2DF21;
+}
+
+/*////////////////////////////////////////*/
+
+/*1366x768px*/
+@media (max-width: 86rem) {
+    .implante-o {
+        position: absolute;
+        z-index: 3;
+        
+        font-size: 3rem;
+        font-weight: 700;
+    
+        margin: 0;
+        left: 45.5rem;
+        top: 21rem;
+    }
+    
+    .fritz-noseunegocio {
+        display: flex;
+        flex-direction: row;
+        font-size: 4rem;
+        font-weight: 700;
+        position: absolute;
+        z-index: 3;
+        
+        font-size: 3rem;
+        font-weight: 700;
+    
+        margin: 0;
+        left: 53rem;
+        top: 24.5rem;
+    }
+    
+    .fritz {
+        color: #E2DF21;
+        position: absolute;
+        z-index: 3;
+        
+        font-size: 3rem;
+        font-weight: 700;
+    
+        margin: 0;
+        right: 23.3rem;
+    }
+    
+    .button-plans {
+        z-index: 4;
+        width: 55%;
+        position: absolute;
+        top: 4.5rem;
+        right: 17.77rem;
+    }
+
+    footer {
+        background: #212529;
+        color: #fcfce5;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: -147rem;
+        font-weight: 700;
+    }
+    
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        align-items: center;
+    }
+    
+    .socials {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 0;
+    }
+    
+    .socials-icons {
+        padding-left: 1rem;
+        color: #E2DF21;
+    }
+
+    .entre-contato-footer {
+        font-size: 4rem;
+        padding-left: 10rem;
+    }
+
+    .redes-sociais-footer {
+        font-size: 3rem;
+        padding-left: 17.5rem;
+    }
+}
+
+/*mobile*/
+@media (max-width: 65rem) {
+    .nav-primaria {
+
+        position: fixed;
+        z-index: 1000;
+        inset: 0 0 0 30%;
+
+        flex-direction: column;
+        padding: min(15vh, 15rem) 4em;
+        
+        transform: translateX(100%);
+        transition: transform 250ms ease-in-out;
+
+        background-color: hsl(0 0% 0% / 0.75);
+        backdrop-filter: blur(40px);
+
+        margin:0;
+
+        font-weight: 500;
+    }
+
+    .nav-primaria a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 3.7rem;
+        font-weight: 700;
+    }
+
+    .hamburguer {
+        position: fixed;
+    }
+
+    .delivery {
+        position: absolute;
+        margin: 0;
+        z-index: 2;
+        top: 28rem;
+        left: 1rem;
+        width: 90%;
+    }
+
+    .bubble {
+        position: absolute;
+        margin: 0;
+        z-index: 1;
+        top: 25rem;
+        left: 2rem;
+        width: 90%;
+    }
+
+    .business {
+        position: absolute;
+        margin: 0;
+        z-index: 2;
+        top: 110rem;
+        left: 5rem;
+        width: 70%;
+    }
+
+    .planos {
+        position: absolute;
+        margin: 0;
+        z-index: 2;
+        top: 180rem;
+        left: 5rem;
+        width: 70%;
+    }
+    
+    @supports (backdrop-filter: blur(40px)) {
+        .nav-primaria {
+            background-color: hsl(0 0% 100% / 0.01);
+            backdrop-filter: blur(70px);
+        }
+
+        .nav-primaria a {
+        text-decoration: none;
+        color: #282012;
+        font-size: 3.7rem;
+        font-weight: 700;
+        }
+    }
+
+    .nav-primaria[data-visible = "true"] {
+        transform: translateX(0%);
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        width: 3rem;
+        background: none;
+        background-repeat: no-repeat;
+        aspect-ratio: 1;
+        border: 0;
+        top: 2rem;
+        right: 2rem;
+    }
+    
+    .logo {
+        margin-top: 2rem;
+        margin-left: 3rem;
+        width: 14em;
+    }
+
+    .hamburguer {
+        width: 130%;
+        position: absolute;
+        margin: 0;
+        right: 2rem;
+        top: 2rem;
+    }
+
+    .implante-o {
+        position: absolute;
+        z-index: 3;
+        
+        font-size: 5rem;
+        font-weight: 700;
+    
+        margin: 0;
+        left: 5.9rem;
+        top: 80rem;
+    }
+    
+    .fritz-noseunegocio {
+        display: flex;
+        flex-direction: row;
+        font-size: 4rem;
+        font-weight: 700;
+        position: absolute;
+        z-index: 3;
+        
+        font-size: 5rem;
+        font-weight: 700;
+    
+        margin: 0;
+        left: 18rem;
+        top: 86rem;
+    }
+    
+    .fritz {
+        color: #E2DF21;
+        position: absolute;
+        z-index: 3;
+        
+        font-size: 5rem;
+        font-weight: 700;
+    
+        margin: 0;
+        left: -12.2rem;
+        top: 10;
+    }
+    
+    .button-plans {
+        z-index: 4;
+        width: 80%;
+        position: absolute;
+        top: 8rem;
+        right: 20.15rem;
+    }
+
+    .float{
+        position:fixed;
+        width:14rem;
+        height:14rem;
+        bottom:3rem;
+        left:3rem;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:7rem;
+        text-align:center;
+        font-size:7rem;
+        box-shadow: 2px 2px 15px rgb(77, 77, 77);
+        z-index:100;
+    }
+    
+    .my-float{
+        margin-top: 3.4rem;
+    }
+
+    footer {
+        background: #212529;
+        color: #fcfce5;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: -147rem;
+        font-weight: 700;
+        height: 20rem;
+    }
+    
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        align-items: center;
+    }
+    
+    .socials {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 0;
+        size: 200%;
+    }
+    
+    .socials-icons {
+        padding-left: 4rem;
+        color: #E2DF21;
+    }
+
+    .entre-contato-footer {
+        font-size: 4rem;
+        padding-left: 10rem;
+    }
+
+    .redes-sociais-footer {
+        font-size: 3rem;
+        padding-left: 17.5rem;
+    }
+}
+
+
+
+
+/* geral */
+
+.flex {
+    display: flex;
+    gap: var(--gap,3rem)
+}

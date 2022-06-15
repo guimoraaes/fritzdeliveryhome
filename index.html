@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Fritz Delivery</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/frontpage.css">
+    <link rel="stylesheet" href="css/widgets.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="lottie-bg">
+        <lottie-interactive id="lottie-bg" path="animations/particles.json" autoplay style="left:0; right:0; position:absolute" loop></lottie-interactive>
+    </div>
+    <header class="header-primario flex">
+        <div>
+            <img class="logo" src="img/logo-fritz.svg">
+        </div>
+
+        <button class="mobile-nav-toggle" aria-controls="nav-primaria" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+            <lottie-interactive class="hamburguer" path="animations/hamb03.json" interaction="switch"></lottie-interactive>
+        </button>
+
+        <nav>
+            <ul id="nav-primaria" data-visible="false" class="nav-primaria flex">
+                <!-- Inicio -->
+                <li class="active">
+                    <a href="index.html">
+                        <lottie-interactive path="#" interaction="click"></lottie-interactive><!-- //////Lottie Inativo////// -->
+                        Início
+                    </a>
+                </li>
+                <!-- Como Funciona -->
+                <li class="limaior">
+                    <a href="#como-funciona">
+                        <lottie-interactive path="#" interaction="morph"></lottie-interactive><!-- //////Lottie Inativo////// -->
+                        Como Funciona
+                    </a>
+                </li>
+                <!-- Serviços -->
+                <li>
+                    <a href="#planos">
+                        <lottie-interactive path="#" interaction="morph"></lottie-interactive><!-- //////Lottie Inativo////// -->
+                        Serviços
+                    </a>
+                </li>
+                <!-- Licencie-se -->
+                <li class="limaior2">
+                    <a href="licenciese.html">
+                        <lottie-interactive path="#" interaction="morph"></lottie-interactive><!-- //////Lottie Inativo////// -->
+                        Licencie-se
+                    </a>
+                </li>
+                <!-- CONTATO -->
+                <li>
+                    <a class="contato" href="contato.html">
+                        <lottie-interactive path="#" interaction="morph"></lottie-interactive><!-- //////Lottie Inativo////// -->
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="initial-animations">
+            <div>
+                <lottie-interactive class="bubble" path="animations/bubble.json" autoplay loop></lottie-interactive>
+            </div>
+            <div>
+                <lottie-interactive class="delivery" path="animations/deliverytest2.json" autoplay loop></lottie-interactive>
+            </div>
+        </section>
+        <section>
+            <div class="testee">
+                <p class="implante-o">Implante o</p>
+                <div class="fritz-noseunegocio">
+                    <p class="fritz">Fritz</p>
+                    <p>no seu negócio.</p>
+                    <a href="#planos"><lottie-interactive class="button-plans" path="animations/button-plans04.json" interaction="morph"></lottie-interactive></a>
+                </div>
+            </div>
+        </section>
+        <section class="como-funciona">
+            <div>
+                <lottie-interactive id="como-funciona" class="business" path="animations/business.json" autoplay loop></lottie-interactive>
+            </div>
+            <div class="texto-como-funciona">
+                <p></p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <lottie-interactive id="planos" class="planos" path="animations/plans2.json" autoplay loop></lottie-interactive>
+            </div>
+        </section>
+        <section>
+            <a href="https://contate.me/testefritz" class="float" target="_blank">
+                <i class="fa fa-whatsapp my-float"></i>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3 class="entre-contato-footer"style="font-weight: 700;">Entre em contato</h3>
+            <p class="redes-sociais-footer">Acesse nossas redes sociais!</p>
+            <ul class="socials">
+                <li class="socials-icons"><a href="https://www.facebook.com/fritzdeliveryoficial?_rdc=1&_rdr"><i id="fb-fa"class="fa fa-facebook fa-2x" style="color:#E2DF21"></i></a></li>
+                <li class="socials-icons"><a href="https://www.instagram.com/fritzdeliveryoficial/"><i class="fa fa-instagram fa-2x" style="color:#E2DF21"></i></a></li>
+                <li class="socials-icons"><a href="#"><i class="fa fa-youtube fa-2x" style="color:#E2DF21"></i></a></li>
+                <li class="socials-icons"><a href="href=mailto:gui_moraes@live.com"><i class="fa fa-envelope fa-2x" style="color:#E2DF21"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+<!--Scripts-->
+    <script src="js/nav.js" defer></script>
+<!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap/bootstrap.bundle.js"></script>
+
+<!-- Lottie libraries -->
+    <script type="text/javascript" src="https://unpkg.com/lottie-interactive@latest/dist/lottie-interactive.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+
+<!-- Our interactivity code -->
+    <script type="text/javascript" src="js/interactions.js"></script>
+
+</body>
+</html>
